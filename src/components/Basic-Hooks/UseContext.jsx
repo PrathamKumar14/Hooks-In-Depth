@@ -6,8 +6,7 @@ const UserContext = createContext([
     lastName: "Bobberson",
     suffix: 1,
     email: "bobbobberson@example.com"
-  },
-  obj => obj
+  }
 ]);
 
 const LevelFive = () => {
@@ -15,7 +14,7 @@ const LevelFive = () => {
 
   return (
     <div>
-      <h5>{`${user.firstName} ${user.lastName} the ${user.suffix} times`}</h5>
+      <h5>{`${user.firstName} ${user.lastName} ${user.suffix} times`}</h5>
       <button
         onClick={() => {
           setUser(Object.assign({}, user, { suffix: user.suffix + 1 }));
