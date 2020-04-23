@@ -1,10 +1,10 @@
 # Hooks-In-Depth
-#Basic Hooks
+# Basic Hooks
 
   useState
   useEffect
   useContext
-#Additional Hooks
+# Additional Hooks
 
   useReducer
   useCallback
