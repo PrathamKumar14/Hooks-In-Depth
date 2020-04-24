@@ -3,6 +3,7 @@ import UseState from "./components/Basic-Hooks/UseState";
 import UseEffect from "./components/Basic-Hooks/UseEffect";
 import UseContext from "./components/Basic-Hooks/UseContext";
 import UseRef from "./components/Additional-Hooks/UseRef";
+import UseReducer from "./components/Additional-Hooks/UseReducer";
 import "./styles.css";
 
 export default function App() {
@@ -23,6 +24,9 @@ export default function App() {
       <hr />
       <h2 className="example">useRef Example</h2>
       <UseRef />
+      <hr />
+      <h2 className="example">useReducer Example</h2>
+      <UseReducer />
       <hr />
     </div>
   );
