@@ -1,7 +1,7 @@
 {
   "name": "hooks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Use cases of all hooks",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
