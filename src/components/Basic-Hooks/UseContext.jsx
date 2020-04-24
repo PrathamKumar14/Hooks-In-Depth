@@ -22,6 +22,13 @@ const LevelFive = () => {
       >
         Increment
       </button>
+      <button
+        onClick={() => {
+          setUser(Object.assign({}, user, { suffix: 1 }));
+        }}
+      >
+        RESET
+      </button>
     </div>
   );
 };
