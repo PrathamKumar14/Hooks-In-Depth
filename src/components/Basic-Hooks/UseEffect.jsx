@@ -7,6 +7,8 @@ function UseEffect() {
   //   const timer = setTimeout(setTime(new Date()), 1000);
   //   return () => clearTimeout(timer);
   // });
+  // }, [time]);
+
 
   return <h1>{time.toLocaleTimeString()}</h1>;
 }
