@@ -6,15 +6,11 @@ function UseEffect() {
   // useEffect(() => {
   //   const timer = setTimeout(setTime(new Date()), 1000);
   //   return () => clearTimeout(timer);
+  // });
   // }, [time]);
 
-  //Second param is list of dependency that tells run userEffect when that dependencies changed
 
-  return (
-    <div>
-      <h1>{time.toLocaleTimeString()}</h1>
-    </div>
-  );
+  return <h1>{time.toLocaleTimeString()}</h1>;
 }
 
 export default UseEffect;
