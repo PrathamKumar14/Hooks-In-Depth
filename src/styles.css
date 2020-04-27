@@ -24,3 +24,12 @@ button {
 input {
   margin: 2px;
 }
+
+textarea {
+  background-color: rgba(185, 226, 231, 0.774);
+  border-radius: 5px;
+}
+
+textarea::placeholder {
+  color: black;
+}
