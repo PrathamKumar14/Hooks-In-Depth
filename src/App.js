@@ -4,6 +4,9 @@ import UseEffect from "./components/Basic-Hooks/UseEffect";
 import UseContext from "./components/Basic-Hooks/UseContext";
 import UseRef from "./components/Additional-Hooks/UseRef";
 import UseReducer from "./components/Additional-Hooks/UseReducer";
+import UseCallback from "./components/Additional-Hooks/UseCallback";
+import UseLayoutEffect from "./components/Additional-Hooks/UseLayoutEffect";
+import UseDebugValue from "./components/Additional-Hooks/UseDebugValue";
 import "./styles.css";
 
 export default function App() {
@@ -27,6 +30,15 @@ export default function App() {
       <hr />
       <h2 className="example">useReducer Example</h2>
       <UseReducer />
+      <hr />
+      <h2 className="example">useCallback Example</h2>
+      <UseCallback />
+      <hr />
+      <h2 className="example">useLayoutEffect Example</h2>
+      <UseLayoutEffect />
+      <hr />
+      <h2 className="example">useDebugValue Example</h2>
+      <UseDebugValue />
       <hr />
     </div>
   );
